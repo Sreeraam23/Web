@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game</title>
     <link href="main.css" rel="stylesheet"></link>
-    <script src="main.js"></script>
 </head>
 <body>
     <div class="reset">
@@ -19,14 +18,15 @@
     </div>
     <div class="input">
         <form>
-            <input type="number" placeholder="Enter a number">
-        </form>    
-        <script>document.forms[0].submit</script>    
+            <input type="guess" placeholder="Enter a number">
+            <button class="check" style="color: azure;">Check</button>
+        </form>        
     </div>
     <div class="scoreboard">
-        <h3>Your Score<span class="score">""</span></h3>
-        <h3>High Score<span class="highscore">""</span></h3>
+        <h3>Your Score<span class="score">0</span></h3>
+        <h3>High Score<span class="highscore">20</span></h3>
     </div>
-    <div class="message" style="color: azure;">The Number you typed is not available 😛</div>
+    <div class="message" style="color: azure;">Enter the Number</div>
+    <script src="main.js"></script>
 </body>
 </html>

@@ -46,5 +46,16 @@ button{
 .message{
     margin-left: 500px;
     margin-top: 30px;
-    font-size: large;
+    font-size: xx-large;
+    color: azure;
+}
+.check{
+    width:150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 0.55rem;
+    display: block ;
+}
+span{
+    margin-left: 20px;
 }
